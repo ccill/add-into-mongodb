@@ -5,8 +5,8 @@
     <title>file</title>
 </head>
 <body>
-    <h1>?????{{item.content}}</h1>
-    <p>?????{{ item.created_time }}</p>
-    <p>?????{{ item.category }}</p>
+    <h1>文章内容：{{item.content}}</h1>
+    <p>创建时间：{{ item.created_time }}</p>
+    <p>文章类别：{{ item.category }}</p>
 </body>
 </html>

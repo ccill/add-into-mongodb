@@ -9,10 +9,10 @@
 </head>
 <body>
     {%block content%}
-    {%for i in file1%}
+    {%for i in files%}
     <li><a href='{{url_for('file',file_id=i.id)}}' target='_blank'>{{i.title}}</a></li>
 	{%for x in i.tags%}
-    <li>{{x.tag}}</li>
+    <li>{{x}}</li>
 	{%endfor%}
     {%endfor%}
     {%endblock%}
